@@ -32,6 +32,11 @@ ul{
     text-align: left;
 }
 
+.todo__title{
+    width: 100%;
+    cursor: text;
+}
+
 h4{
     margin: 10px;
     font-weight: 300;

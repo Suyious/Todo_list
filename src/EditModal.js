@@ -14,7 +14,7 @@ function EditModal({open, setOpen, todo}) {
         <div>
             <form action="">
                 <input className="translucent roundedCorner" type="text" value={input} onChange={event=>setInput(event.target.value)}/>
-                <button className="roundedCorner" onClick={update}>Save Changes</button>
+                <button className="roundedCorner" onClick={update}>Save</button>
             </form>
           
         </div>

@@ -12,7 +12,7 @@ function Navbar() {
 
   let today = date.toDateString();
   let time = date.toLocaleTimeString().split(':');
-  let newTime = `${time[0]}:${time[1]} ${time[2].split(' ')[1]}`
+  let newTime = `${time[0]}:${time[1]} ${time[2].split(' ')[1]? time[2].split(' ')[1]: ""}`
 
   return (
     <nav>

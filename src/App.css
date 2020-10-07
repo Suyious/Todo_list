@@ -69,7 +69,7 @@ form{
 
 input[type=text],
 button{
-  padding: 1em 2em;
+  padding: 1em 3em;
   font-family: Poppins;
   font-size: 500;
   outline: none;
@@ -79,13 +79,13 @@ button{
 
 
 input[type=text]{
-  width: 70%;
+  width: 65%;
   max-width: 25rem;
   border-radius: 50px 0 0 50px;
 }
 
 button{
-  width: 30%;
+  width: 35%;
   max-width: 10rem;
   background: var(--brown-orange);
   color: var(--off-white);

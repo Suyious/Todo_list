@@ -9,8 +9,8 @@ function Todo({ todo }) {
   return (
     <div>
       <li className="todo">
-        <div>
-          <h4 onClick={toggleOpen}>
+        <div onClick={toggleOpen} className="todo__title">
+          <h4>
             <span style={{ fontWeight: 700, color: "#F29A52" }}>to-do: </span>
             {todo.todo}
           </h4>
