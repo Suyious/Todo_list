@@ -1,6 +1,6 @@
 .Scrollable{
     overflow: scroll;
-    height: 65vh;
+    height: 70vh;
 }
 
 ::-webkit-scrollbar {
@@ -26,7 +26,8 @@
 }
 
 ul{
-    width: 50%;
+    width: 90%;
+    max-width: 40rem;
     margin: 2em auto;
     text-align: left;
 }
