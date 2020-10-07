@@ -47,8 +47,12 @@ h4{
     border-radius: 5px;
 }
 
+.delbutton:hover{
+    filter: saturate(1.5);
+}
+
 .delicon{
-    fill: red;
+    /* fill: red; */
     margin: 0.2em;
 }
 
